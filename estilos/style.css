@@ -60,6 +60,7 @@ ul{
     
 }
 
+
 #imenufechar{
     color: white;
     font-size: 3em;
@@ -111,9 +112,65 @@ ul > li > a{
 
 ul > li > a:hover{
     color: #FFB897;
-    
-    
+}
 
+p{
+
+}
+section#destaque{
+    color: white;
+    background-image: url(../imagens/background\ 2\ -desfoque.jpg);
+    background-position: right ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 32vh;
+}
+
+section#destaque > #produtodestaque{ 
+    position: relative;
+    width: 100%;
+    height: 32vh;
+   
+}
+h1#tdestaque{
+    position: absolute;
+    display: block;
+    float: right;
+    top: 25%;
+    right: 0%;
+    width: 30%;
+    background-color: #00000046;
+    font-family: var(--font-menu);
+    text-align: right;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 2em;
+    padding-right: 1vw;
+    text-shadow: 3px 3px 4px black;
+    border-radius: 10px 10px 0px 0px;
+}
+
+p#pdestaque{
+    position: absolute;
+    display: block;
+    float: right;
+    top: 40.4%;
+    left: 45%;
+    width: 50%;
+    text-align: justify;
+    font-size: 1em;
+    
+    text-shadow: 3px 3px 4px black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#fprodutodestaque{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%,-50%);
+    
+    
 }
 
 section{
@@ -121,5 +178,4 @@ section{
 }
 
 footer{
-
 }
