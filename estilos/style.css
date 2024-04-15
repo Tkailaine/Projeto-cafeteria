@@ -55,7 +55,7 @@ ul{
     display: none;
     position: relative;
     list-style-type: none;
-    padding: 30vh 5vh;
+    padding: 50% 5%;
     width: 100vw;
     height: 100vh;
     float: left;
@@ -83,10 +83,9 @@ ul{
 }
 
 #imenuabrir{
-    
     position: absolute;
-    top: 3.2vh;
-    left: 88vw;
+    top: 4%;
+    left: 90vw;
     color: white;
     font-size: 2.4em;
     cursor: pointer;
@@ -140,25 +139,20 @@ section#destaque > #produtodestaque{
 h1#tdestaque{
     position: absolute;
     display: block;
-    float: right;
     top: 25%;
-    right: 0%;
-    width: 30%;
-    background-image: linear-gradient(45deg,rgba(0, 0, 0, 0.096) 60%,  rgb(0, 0, 0));
+    right: 1%;
+    width: 50%;
+    background-image: linear-gradient(45deg,rgba(0, 0, 0, 0.041) 60%,  rgb(0, 0, 0));
     font-family: var(--font-menu);
     text-align: right;
-    letter-spacing: 3px;
     font-weight: 400;
     font-size: 2em;
-    padding-right: 1vw;
-    text-shadow: 3px 3px 4px black;
     border-radius: 10px 0px 0px 0px;
 }
 
 p#pdestaque{
     position: absolute;
     display: block;
-    float: right;
     top: 40.4%;
     left: 40%;
     width: 60%;
