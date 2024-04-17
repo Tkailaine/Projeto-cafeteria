@@ -29,7 +29,7 @@ body{
     font-size: 1em;
     background-color: #faebd7;
     
-    overflow-x: hidden;
+    
     width: 100vw;
     height: 100vh;
     
@@ -51,6 +51,7 @@ nav{
 
 header > nav> #linklogo{
     display: inline;
+    width: 100%;
     
     
 }
@@ -93,7 +94,7 @@ ul{
 #imenuabrir{
     position: absolute;
     top: 20px;
-    left: 90vw;
+    left: 90%;
     color: white;
     font-size: 2.4em;
     cursor: pointer;
@@ -134,8 +135,6 @@ section#destaque{
     background-position: right ;
     background-repeat: no-repeat;
     background-size: cover;
-   /* background-attachment: fixed; */
-    height: vh;
     width: 100%;
     border-bottom: 2px solid black;
 }
@@ -256,15 +255,43 @@ p#pdestaque{
     border-radius: 15px;
 }
 
-.slider img{
-    display: none;
-}
 
 .slider{
-    display: none  ;
+    position: relative;
     background-color: aqua;
     height: 65vh;
-    width: 480px;
+    width: 100%;
+    
+    overflow: hidden;
+ 
+}
+
+.slides{
+    display: flex;
+    width: 300%;
+    height: 100%;
+    animation: slide-animation 24s infinite; /* Altere 10s para ajustar a velocidade de transição */
+}
+
+.slide{
+    width: 33.33%; /*TAMANHO DA IMAGEM, COMO SÃO 3 CADA UMATERÁ ESSE VALOR*/
+    
+}
+
+@keyframes slide-animation {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; } /* Slide parado por 20% do tempo total */
+    33.33% { margin-left: -100%; }
+    53.33% { margin-left: -100%; } /* Slide parado por 20% do tempo total */
+    66.66% { margin-left: -200%; }
+    86.66% { margin-left: -200%; } /* Slide parado por 20% do tempo total */
+    100% { margin-left: -200%; } /* Volta ao primeiro slide sem mostrar o fundo do body */
+   
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
 }
 
 section{
