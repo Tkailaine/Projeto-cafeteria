@@ -256,6 +256,17 @@ p#pdestaque{
     border-radius: 15px;
 }
 
+.slider img{
+    display: none;
+}
+
+.slider{
+    display: none  ;
+    background-color: aqua;
+    height: 65vh;
+    width: 480px;
+}
+
 section{
 
 }
