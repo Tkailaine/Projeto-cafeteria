@@ -141,7 +141,7 @@ section#destaque{
 h1#tdestaque{
     position: absolute;
     display: block;
-    top: 70%;
+    top: 69%;
     width: 100%;
     font-family: var(--font-principal);
     text-align: center;
@@ -155,7 +155,7 @@ h1#tdestaque{
 p#pdestaque{
     position: absolute;
     display: block;
-    top: 77%;
+    top: 78%;
     margin: 0px 5%;
     width: 90%;
     text-align: center;
@@ -169,7 +169,7 @@ p#pdestaque{
     position: absolute;
     right: 5%;
     top: 30%;
-    width: 22%;
+    width: 110px;
     height: 3vh;
     border-radius: 15px;
     border: none;
@@ -188,7 +188,7 @@ p#pdestaque{
 #nossocafe{
     display: block;
     margin: auto;
-    width: 300px;
+    width: 250px;
     margin: 7% auto;
 }
 
