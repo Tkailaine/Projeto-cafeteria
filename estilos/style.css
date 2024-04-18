@@ -135,7 +135,7 @@ section#destaque{
     background-size: cover;
     width: 100vw;
     height: 32vh;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--cor1);
 }
 
 h1#tdestaque{
