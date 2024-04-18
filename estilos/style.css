@@ -129,26 +129,25 @@ p{
 section#destaque{
     position: relative;
     color: white;
-    background-image: url(../imagens/background\ 2\ -desfoque.jpg);
-    background-position: right ;
+    background-image: url(../imagens/destaque.jpg);
+    background-position:center ;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 32vh;
-    border-bottom: 2px solid var(--cor1);
+    height: 65vh;
+    border-bottom: 2px solid var(--cor5);
 }
 
 h1#tdestaque{
     position: absolute;
     display: block;
-    top: 25%;
-    left: 42%;
-    width: 50%;
-    background-image: linear-gradient(45deg,rgba(0, 0, 0, 0.041) 60%,  rgb(2, 2, 2));
+    top: 70%;
+    width: 100%;
     font-family: var(--font-principal);
-    text-align: right;
+    text-align: center;
     font-weight: 400;
     font-size: 2em;
+    color: #407973;
     border-radius: 10px 0px 0px 0px;
    
 }
@@ -156,26 +155,21 @@ h1#tdestaque{
 p#pdestaque{
     position: absolute;
     display: block;
-    top: 48.4%;
-    left: 32%;
-    width: 60%;
-    text-align: right;
+    top: 77%;
+    margin: 0px 5%;
+    width: 90%;
+    text-align: center;
     font-size: 1em;
     text-shadow: 3px 3px 4px black;
     border-radius: 0px 0px 10px 10px;
 }
 
-#fprodutodestaque{
-width: 170px;
-margin: 30px 0px;
-       
-}
 #buttondestaque{
     display: block;
     position: absolute;
-    right: 8%;
-    top: 75%;
-    width: 32%;
+    right: 5%;
+    top: 30%;
+    width: 22%;
     height: 3vh;
     border-radius: 15px;
     border: none;
@@ -196,52 +190,12 @@ margin: 30px 0px;
     margin: auto;
     width: 300px;
     margin: 7% auto;
-
-}
-
-#bebidas{
-    display: flex;
-    margin-top: 10px;
-}
-
-
-.fbebidas{
-    width: 100%;
-   
-}
-.tbebidas{
-    text-align: center
-}
-.nomebebida{
-    display: inline;
-    height: 20%;
-    margin: 0px 5.5%;
-    color:#d15c21;
-    border: none;
-    text-transform: uppercase;
-    font-size: 3.2vw;
-    font-family: var(--font-secundaria);
-    font-weight: 700;
-}
-
-#buttoncardapio{
-    display: block;
-    background-color: #d15c21;
-    color: white;
-    font-family: var(--font-secundaria);
-    margin: auto;
-    margin-top: 3vh;
-    height: 4vh;
-    width: 30%;
-    border: none;
-    border-radius: 15px;
 }
 
 
 .slider{
     position: relative;
-    background-color: aqua;
-    height:65vh;
+    height:41vh;
     width: 100vw;
     overflow: hidden;
  
@@ -251,7 +205,7 @@ margin: 30px 0px;
     display: flex;
     width: 300%;
     height: 100%;
-    animation: slide-animation 24s infinite; /* Altere 10s para ajustar a velocidade de transição */
+    animation: slide-animation 15s infinite; /* Altere 10s para ajustar a velocidade de transição */
 }
 
 .slide{
@@ -274,6 +228,55 @@ margin: 30px 0px;
     height: 100%;
 }
 
+#buttoncardapio{
+    display: block;
+    background-color: var(--cor5);
+    color: white;
+    font-family: var(--font-secundaria);
+    font-size: 1.1em;
+    margin: auto;
+    margin-top: 2vh;
+    height: 30px;
+    width: 25%;
+    border: none;
+    border-radius: 15px;
+}
+
+#buttoncardapio:hover{
+    background-color: #fd6e27;
+    cursor: pointer;
+}
+
+
+.quemsomos{
+    width: 100%;
+    height: 80%;
+    background-image: url(../imagens/quemsomosp.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5vh;
+}
+
+.atendimento{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagens/atendimentop.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cafeteria{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagens/cafeteriap.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 section{
 
 }
