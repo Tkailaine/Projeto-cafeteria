@@ -167,7 +167,7 @@ p#pdestaque{
 #buttondestaque{
     display: block;
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: 30%;
     width: 110px;
     height: 3vh;
@@ -288,7 +288,7 @@ section#acessorios > div{
     margin: 25px auto;
     background-color: #fff3ed;
     width: 70%;
-    height: 475px;
+    height: 430px;
     border-radius: 15px;
     box-shadow: 1px 2px rgba(0, 0, 0, 0.185);
 }
@@ -323,8 +323,8 @@ section#acessorios > div > p{
     text-transform: capitalize;
     display: block;
     margin: 5vw auto;
-    width: 25vw;
-    height: 7vw;
+    width: 150px;
+    height: 30px;
     background-color: #325c58;
 }
 section{
