@@ -233,15 +233,20 @@ p#pdestaque{
 #buttoncardapio{
     display: block;
     background-color: var(--cor5);
-    color: white;
-    font-family: var(--font-secundaria);
-    font-size: 1.1em;
     margin: auto;
     margin-top: 2vh;
     height: 30px;
     width: 25%;
     border: none;
     border-radius: 15px;
+}
+
+#linkcardapio{
+    color: white;
+    font-family: var(--font-secundaria);
+    font-size: 1.1em;
+    text-decoration: none;
+   
 }
 
 #buttoncardapio:hover{
@@ -340,5 +345,5 @@ section{
 
 footer{
     background-color: var(--cor1);
-    height: 100%;
+    height: 30%;
 }
