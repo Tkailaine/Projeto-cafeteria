@@ -242,10 +242,14 @@ p#pdestaque{
 }
 
 #linkcardapio{
+    display: block;
     color: white;
     font-family: var(--font-secundaria);
     font-size: 1.1em;
     text-decoration: none;
+    margin: auto;
+    height: 70%;
+    width: 100%;
    
 }
 
