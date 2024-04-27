@@ -130,16 +130,17 @@ main{
 #fcardapio{
     display: block;
     width: 65%;
-    margin: 30px auto 0px auto;
+    margin: 40px auto 0px auto;
     
 }
 
 .tbebidas{
     font-family: var(--font-secundaria);
     color: var(--cor5);
-    margin: 40px 0px 0px 5px;
+    margin: 40px 0px 40px 5px;
     text-decoration: underline;
     text-align: center;
+    font-size: 1.8em;
 
 }
 .sessoesc{
