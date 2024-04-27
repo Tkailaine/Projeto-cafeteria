@@ -145,7 +145,7 @@ main{
 .sessoesc{
     display: flex;
     flex-wrap: wrap;
-    justify-content:left;
+    justify-content:center;
     width: 100%;
     height: 100%;
 }
