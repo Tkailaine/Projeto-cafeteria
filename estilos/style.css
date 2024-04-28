@@ -330,8 +330,12 @@ section#acessorios > div{
     margin-top: 10px;
     
 }
-
-#acessorios > div > input[type='button']{
+#acessorios > div > a{text-decoration: none;}
+#acessorios > div > a > input[type='button']:hover{
+    background-color: #498680;
+    cursor: pointer;
+}
+#acessorios > div > a > input[type='button']{
     border: none;
     border-radius: 15px;
     color: white;
