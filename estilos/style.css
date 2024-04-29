@@ -276,7 +276,7 @@ p#pdestaque{
 
 .atendimento{
     width: 100%;
-    height: 100%;
+    height: 80%;
     background-image: url(../imagens/atendimentop.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -286,7 +286,7 @@ p#pdestaque{
 
 .cafeteria{
     width: 100%;
-    height: 100%;
+    height: 80%;
     background-image: url(../imagens/cafeteriap.jpg);
     background-attachment: fixed;
     background-size: cover;
