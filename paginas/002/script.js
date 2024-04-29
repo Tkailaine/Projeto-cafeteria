@@ -20,16 +20,13 @@ function abrir(){
 }
 
 
-function entrou(){
-   if(preco.style.display!='none'){
-    preco.style.display='none';
-    msg.style.display='block';
+function entrou(elemento) {
+    elemento.style.display = 'none';
+    elemento.nextElementSibling.style.display = 'block';
 }
-}
-function saiu(){
-    if(preco.style.display='none'){
-     preco.style.display='block';
-     msg.style.display='none';
- }
+
+function saiu(elemento) {
+    elemento.style.display = 'block';
+    elemento.nextElementSibling.style.display = 'none';
 }
 
