@@ -27,7 +27,7 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
-    background-color: #faebd7;
+    background-color: #E7E7E7;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
@@ -143,25 +143,73 @@ main{
     font-size: 1.8em;
 
 }
-.sessoesc{
+.scafe{
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
     width: 100%;
     height: 100%;
+
 }
 
-.sessoesc > div{
+.scafe >.produtoc{
+   
+    height: 500px;
+    width: 300px;
+    margin: 20px;
+}
+
+.scafe > .produtoc > .fc{
     display: flex;
     justify-content: right;
-    margin: 25px 20px;
-    background-color: #fff3ed;
-    width: 400px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 1px 2px rgba(0, 0, 0, 0.185);
+    background-color: #E8E0D7;
+    width: 300px;
+    height: 300px;
+    border: #325c58 1px solid;
     overflow: hidden;
 }
+
+.tituloc{
+    font-family: var(--font-principal);
+    text-align: cleft;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.descricaoc{
+    font-family: var(--font-principal);
+    font-weight: 300;
+    text-align: justify;
+    margin: 0px 10px;
+ 
+}
+.msg{
+    display: none;
+    font-family: var(--font-principal);
+    font-size: 1.5em;
+    height: 45px;
+    text-align: center;
+    border: #E8E0D7 2px solid;
+    margin-top: 5px;
+    background-color: #325c58;
+    color: white;
+
+    
+}
+
+
+.precoc{
+    font-family: var(--font-principal);
+    font-size: 1.5em;
+    height: 40px;
+    text-align: center;
+    border: #325c58 1px solid;
+   
+}
+
+
+
 
 .texta{
     display: flex;
@@ -176,16 +224,16 @@ main{
     color: #5a5857;
 }
 
-.sessoesc > div > p{
+.lcafe > div > p{
     margin: 11px;
     text-align: justify;
     
 }
 
-.sessoesc > div > img{
+.lcafe > div > img{
    
     display: block;
-    width: 70%;
+    width: 100%;
     border-radius: 15px 15px 0px 0px;
 }
 
