@@ -133,6 +133,7 @@ main{
     
     
     
+    
 }
 
 .sessaoloja{
@@ -146,14 +147,13 @@ main{
 
 .sessaoloja >.produtoitem{
    
-    height: 500px;
+    height: 470px;
     width: 300px;
-    margin: 20px;
+    margin:20px;
 }
 
 .sessaoloja > .produtoitem > .fitem{
     display: flex;
-    justify-content: right;
     background-color: #E8E0D7;
     width: 300px;
     height: 300px;
@@ -201,25 +201,6 @@ main{
     border: #325c58 1px solid;
     cursor: auto;
    
-}
-
-
-.lcafe > div > p{
-    margin: 11px;
-    text-align: justify;
-    
-}
-
-.lcafe > div > img{
-    display: block;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-}
-
-.sessoesc > div > .comfundo{
-    display: block;
-    width: 60%;
-    border-radius: 15px 15px 0px 0px;
 }
 
 .titulofotosessao{
