@@ -30,3 +30,16 @@ function saiu(elemento) {
     elemento.nextElementSibling.style.display = 'none';
 }
 
+window.addEventListener('scroll', function() {
+    var scrollTop = window.scrollY;
+    var titulosessao = document.querySelector('.titulosessao');
+    var liquido = document.querySelector('.liquido');
+    
+    // Calcula a quantidade de deslocamento com base na posição de rolagem
+    var offset = scrollTop * 0.5;
+    
+    // Aplica o deslocamento à imagem líquida
+    liquido.style.transform = 'translateY(calc(100% + ' + offset + 'px))';
+  });
+  
+
