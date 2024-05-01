@@ -138,7 +138,7 @@ main{
 
 .sessaoloja{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content:center;
     width: 100%;
     height: 100%;
@@ -160,7 +160,6 @@ main{
     border: #325c58 1px solid;
     overflow: hidden;
 }
-
 .tituloitem{
     font-family: var(--font-principal);
     text-align: cleft;
