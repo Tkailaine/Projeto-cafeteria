@@ -193,9 +193,10 @@ main{
     width: 400px;
     margin: 15px auto;
   }
-  
+
+
   .sessaoloja >.produtoitem{
-      height: 470px;
+      height: 340px;
       width: 300px;
       margin:20px;
       border-radius: 15px;
@@ -226,10 +227,15 @@ main{
    
   }
 
+  strong{
+    font-weight: 400;
+  }
+
   .menu-opcoes{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+
     
   }
   .preco{
