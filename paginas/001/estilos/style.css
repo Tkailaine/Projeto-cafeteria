@@ -174,79 +174,73 @@ main{
   }
 
   
+  
+  .sessaoloja{
+      display: flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      width: 100%;
+      height: 100%;
+  
+  }
 
-.tsessao{
-    display: block;
-    width: 500px;
-    margin: 15px auto 0px;
-
-    
-    
-    
-    
-}
-
-.sessaoloja{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content:center;
+  .tsessao{
     width: 100%;
-    height: 100%;
+  }
 
-}
-
-.sessaoloja >.produtoitem{
-    border-radius: 15px;
-    height: 470px;
+  .tsessao > .fsessao{
+    display: block;
     width: 400px;
-    margin:20px;
-}
+    margin: 15px auto;
+  }
+  
+  .sessaoloja >.produtoitem{
+      height: 470px;
+      width: 300px;
+      margin:20px;
+      border-radius: 15px;
+  }
+  
+  .sessaoloja > .produtoitem > .fitem{
+      display: flex;
+      background-color: #E8E0D7;
+      width: 300px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 15px;
+      
+  }
+  .tituloitem{
+      font-family: var(--font-principal);
+      text-align: left;
+      font-size: 1.2em;
+      font-weight: 500;
+      margin: 5px 10px 0px 10px;
+  }
+  
+  .descricaoitem{
+      font-family: var(--font-principal);
+      font-weight: 300;
+      text-align: left;
+      margin: 5px 0px 0px 10px;
+   
+  }
 
-.sessaoloja > .produtoitem > .fitem{
-    border-radius: 15px;
-    display: flex;
-    background-color: #E8E0D7;
-    width: 400px;
-    height: 300px;
- 
-    overflow: hidden;
-    
-}
-.tituloitem{
-    font-family: var(--font-principal);
-    text-align: left;
-    font-size: 1.2em;
-    font-weight: 500;
-    margin: 5px 10px;
-}
-
-.descricaoitem{
-    font-family: var(--font-principal);
-    font-weight: 300;
-    text-align: justify;
-    margin: 0px 10px;
- 
-}
-
-.opcoes{
+  .menu-opcoes{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     align-items: baseline;
-   
-}
-
-.preco{
-    text-align: right;
-    width: 100%;
-}
-
-
-section{
-
-}
-
-footer{
-    background-color: var(--cor1);
-    height: 10%;
-}
+    
+  }
+  .preco{
+    font-family: var(--font-principal);
+    margin: 0px 10px;
+  }
+  section{
+  
+  }
+  
+  footer{
+      background-color: var(--cor1);
+      height: 10%;
+  }
