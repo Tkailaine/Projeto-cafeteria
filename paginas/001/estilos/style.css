@@ -124,6 +124,12 @@ ul > li > a:hover{
     color: var(--cor5);
 }
 
+#itens {
+    position: relative;
+    z-index: 1; 
+  }
+
+  
 main{
 
 }
@@ -138,7 +144,7 @@ main{
   }
   
   .prev, .next {
-    position: absolute;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
@@ -146,8 +152,9 @@ main{
     color: white;
     font-weight: bold;
     font-size: 20px;
-    z-index: 1;
+    z-index: 0;
   }
+  
   
   .prev {
     left: 0;
@@ -173,7 +180,7 @@ main{
     background-color: #717171;
   }
 
-  
+ 
   
   .sessaoloja{
       display: flex;
