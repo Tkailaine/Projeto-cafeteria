@@ -179,97 +179,93 @@ main{
   .active, .dot:hover {
     background-color: #717171;
   }
-
- 
-  .sessoes{
+  .sessoes {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
   }
   
-  .sessaoloja{
-      display: flex;
-      flex-wrap:wrap;
-      justify-content:center;
-      flex-direction: column;
-      width: 100%;
-      height: 100%;
-  
+  .sessaoloja {
+    width: 100%;
+    margin-bottom: 30px;
   }
-
-  .tsessao{
+  
+  .tsessao {
     font-family: var(--font-secundaria);
-    margin: 30px 0px 0px 30px;
     color: #325c58;
     font-size: 1.2em;
+    margin-left: 30px;
   }
-
-  .tsessao > .fsessao{
+  
+  .tsessao > .fsessao {
     display: block;
     width: 100px;
-   margin: 30px 30px 0px;
-  }
-
-
-  .sessaoloja >.produtoitem{
-      display: flex;
-      height: 180px;
-      width: 450px;
-      margin:30px;
-      border-radius: 15px;
-      
   }
   
-  .sessaoloja > .produtoitem > .fitem{
-      
-      
-      width: 250px;
-      height: 180px;
-      overflow: hidden;
-      border-radius: 15px;
-      
+  .produtoitem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
   }
-
-  .texto-conteudo{
+  
+  .produtoitem > .fitem {
+    width: 250px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
+  
+  .texto-conteudo {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
   
+  .tituloitem {
+    font-family: var(--font-principal);
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 5px 10px 0;
   }
-  .tituloitem{
-      font-family: var(--font-principal);
-      text-align: left;
-      font-size: 1.2em;
-      font-weight: 500;
-      margin: 5px 10px 0px 10px;
-  }
-  .descricao{
-    
+  
+  .descricao {
     width: 130px;
     font-family: var(--font-principal);
     font-weight: 300;
     font-size: 1em;
     text-align: left;
-    margin: 5px 0px 0px 10px;
-    
+    margin: 5px 0 0 10px;
   }
   
-
-  strong{
+  strong {
     font-weight: 400;
   }
-
-  .menu-opcoes{
+  
+  .menu-opcoes {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
-    
   }
-  .preco{
+  
+  .preco {
     font-family: var(--font-principal);
-    margin: 0px 10px;
+    margin: 0 10px;
   }
+  
+  /* Media Query para telas maiores que 900px */
+  @media screen and (min-width: 900px) {
+    .sessaoloja {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  
+ 
+ 
   section{
   
   }
@@ -279,11 +275,4 @@ main{
       height: 10%;
   }
 
-  /* Media Query para telas maiores que 900px */
-  @media screen and (min-width: 900px) {
-    .sessaoloja {
-      display: flex;
-      justify-content: space-around; /* Distribui as sessões lado a lado */
-    }
-  }
   
