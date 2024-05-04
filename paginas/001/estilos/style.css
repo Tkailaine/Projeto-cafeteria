@@ -180,13 +180,14 @@ main{
     background-color: #717171;
   }
   .sessoes {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
   }
   
   .sessaoloja {
-    width: 100%;
+    width:100%;
     margin-bottom: 30px;
   }
   
@@ -194,7 +195,7 @@ main{
     font-family: var(--font-secundaria);
     color: #325c58;
     font-size: 1.2em;
-    margin-left: 30px;
+    margin: 20px 0px 10px 30px;
   }
   
   .tsessao > .fsessao {
@@ -221,7 +222,7 @@ main{
   .texto-conteudo {
     display: flex;
     flex-direction: column;
-    align-items: center;
+   
   }
   
   .tituloitem {
@@ -229,7 +230,7 @@ main{
     text-align: left;
     font-size: 1.2em;
     font-weight: 500;
-    margin: 5px 10px 0;
+    margin: 0px 10px 0px;
   }
   
   .descricao {
@@ -254,14 +255,6 @@ main{
   .preco {
     font-family: var(--font-principal);
     margin: 0 10px;
-  }
-  
-  /* Media Query para telas maiores que 900px */
-  @media screen and (min-width: 900px) {
-    .sessaoloja {
-      display: flex;
-      justify-content: space-around;
-    }
   }
   
  
