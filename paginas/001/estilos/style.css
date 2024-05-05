@@ -58,7 +58,7 @@ header > nav > #linklogo > a > #flogo{
     width: 150px;
    
 }
-ul{
+nav > ul{
     display: none;
     position: relative;
     list-style-type: none;
@@ -101,7 +101,7 @@ ul{
 
 
 
-ul > li{
+nav > ul > li{
     display: block;
     text-align: left;
     padding-right: 2vw;
@@ -109,7 +109,7 @@ ul > li{
     margin: 15px 0px;
 }
 
-ul > li > a{
+nav> ul > li > a{
     font-family: var(--font-principal);
     font-size: 1.5em;
     color: white;
@@ -120,7 +120,7 @@ ul > li > a{
     
 }
 
-ul > li > a:hover{
+nav > ul > li > a:hover{
     color: var(--cor5);
 }
 
@@ -130,8 +130,7 @@ ul > li > a:hover{
   }
 
   
-main{
-
+main{ 
 }
 
 .slideshow-container {
@@ -179,84 +178,98 @@ main{
   .active, .dot:hover {
     background-color: #717171;
   }
-  .sessoes {
-    width: 100%;
+
+  .sessoes{
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-  }
+    
   
-  .sessaoloja {
-    width:100%;
-    margin-bottom: 30px;
+
   }
-  
-  .tsessao {
+
+  .tsessao{
     font-family: var(--font-secundaria);
     color: #325c58;
-    font-size: 1.2em;
-    margin: 20px 0px 10px 30px;
+    margin: 10px 0px;
   }
-  
-  .tsessao > .fsessao {
-    display: block;
-    width: 100px;
-  }
-  
-  .produtoitem {
+
+  .sessao{
     display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-    justify-content: center;
-  }
-  
-  .produtoitem > .fitem {
-    width: 250px;
-    height: 180px;
-    overflow: hidden;
-    border-radius: 15px;
-    margin-bottom: 15px;
-    margin-left: 10px;
-  }
-  
-  .texto-conteudo {
-    display: flex;
+    margin:auto 30px auto 30px;
     flex-direction: column;
+    width: 400px;
+    height:auto;
+ 
+    
+ 
+  }
+
+  .sessao > ul{
+    list-style-type: none;
+  }
+  .sessao > ul > li{
+    margin-bottom: 15px;
+  }
+
+  .produto{
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+
+
+  .fproduto{
+    width: 200px;
+    height: 170px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .fproduto > img{
+    display: block;
+    margin: 10px 0px;
+    width: 100%;
+    height: 150px;
+    border-radius:15px;
    
   }
-  
-  .tituloitem {
+
+  .texto{
+    width: 190px;
     font-family: var(--font-principal);
-    text-align: left;
+    margin-left: 15px;
+    
+  }
+
+  .tproduto{
+    font-family: var(--font-principal);
     font-size: 1.2em;
-    font-weight: 500;
-    margin: 0px 10px 0px;
+    font-weight: 600;
   }
-  
-  .descricao {
-    width: 130px;
-    font-family: var(--font-principal);
-    font-weight: 300;
-    font-size: 1em;
-    text-align: left;
-    margin: 5px 0 0 10px;
-  }
-  
-  strong {
-    font-weight: 400;
-  }
-  
-  .menu-opcoes {
+  .descricao-preco{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: baseline;
+    justify-content: space-between;
   }
-  
-  .preco {
-    font-family: var(--font-principal);
-    margin: 0 10px;
-  }
-  
+
+ .descricao{
+  width: 110px;
+  font-weight: 300;
+  font-size: 1.1em;
+
+ }
+ 
+ .descricao > strong{
+  font-weight: 400;
+ }
+
+ .preco{
+  line-height: 1.6em;
+  width: 50px;
+  font-weight: bold;
+ }
+
  
  
   section{
@@ -265,7 +278,9 @@ main{
   
   footer{
       background-color: var(--cor1);
-      height: 10%;
+      width: 100%;
+      height: 30%;
+      margin-top: 15px;
   }
 
   
