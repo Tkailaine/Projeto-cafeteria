@@ -195,7 +195,7 @@ main{
 
   .sessao{
     display: flex;
-    margin:auto 30px auto 30px;
+    margin:0px 20px;
     flex-direction: column;
     width: 400px;
     height:auto;
@@ -203,6 +203,7 @@ main{
     
  
   }
+
 
   .sessao > ul{
     list-style-type: none;
@@ -215,6 +216,7 @@ main{
     display: flex;
     width: 100%;
     height: auto;
+    margin: 20px 0px;
   }
 
 
