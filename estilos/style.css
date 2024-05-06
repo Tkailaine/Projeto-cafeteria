@@ -130,8 +130,8 @@ p{
 section#destaque{
     position: relative;
     color: white;
-    background-image: url(../imagens/destaque.jpg);
-    background-position:center ;
+    background-image: url(../imagens/destaquep.jpg);
+    background-position:center top ;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+section#destaque{
+    background-image: url(../imagens/destaquem.jpg);
+   
+}
+
+p#pdestaque{
+    width: 500px;
+    left: 50%;
+    margin: 0px;
+    font-size: 1em;
+    transform: translate(-50%);
+}
+
+#buttondestaque{
+    right: 25px;
+    top: 200px;
+    width: 150px;
+    height: 30px;
+    font-size:1em;
+}

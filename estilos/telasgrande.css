@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+section#destaque{
+    background-image: url(../imagens/destaqueg.jpg);
+    background-position:  center left;
+    height: 500px;
+   
+}
+
+
+h1#tdestaque{
+    display: none;
+   
+}
+p#pdestaque{
+    width: 363px;
+    top: 165px;
+    left: 480px;
+    
+    margin: 0px;
+    font-size: 1.3em;
+    text-align: left;
+    transform: translate(-30%);
+
+   
+}
+
+#buttondestaque{
+    left: 370px;
+    top: 265px;
+    width: 150px;
+    height: 30px;
+    font-size:1em;
+    
+}
