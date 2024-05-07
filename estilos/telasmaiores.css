@@ -33,3 +33,39 @@ p#pdestaque{
     font-size:1em;
     
 }
+
+#nossocafe{
+    width: 350px;
+    margin: 25px auto;
+}
+
+.slider{
+    position: none;
+    height:400px;
+    width: 100vw;
+ 
+}
+
+.slides{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    animation: none; 
+}
+
+
+@keyframes slide-animation {
+    
+    0% { margin-left: 0%; }
+    0% { margin-left: 0%; } /* Slide parado por 20% do tempo total */
+    0% { margin-left: 0%; }
+   0% { margin-left: 0%; } /* Slide parado por 20% do tempo total */
+    0% { margin-left: 0%; }
+    0% { margin-left: 0%; } /* Slide parado por 20% do tempo total */
+    0% { margin-left: 0%; } /* Volta ao primeiro slide sem mostrar o fundo do body */
+   
+}
+
+#buttoncardapio{
+    width: 180px;
+}

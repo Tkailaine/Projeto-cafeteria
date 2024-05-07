@@ -196,7 +196,6 @@ p#pdestaque{
 
 
 .slider{
-
     position: relative;
     height:360px;
     width: 100vw;
@@ -235,9 +234,9 @@ p#pdestaque{
     display: block;
     background-color: var(--cor5);
     margin: auto;
-    margin-top: 2vh;
+    margin-top: 20px;
     height: 30px;
-    width: 25%;
+    width: 150px;
     border: none;
     border-radius: 15px;
 }
