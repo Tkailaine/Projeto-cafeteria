@@ -318,6 +318,7 @@ p#pdestaque{
 }
 
 section#acessorios > div{
+    position: relative;
     display: block;
     margin: 25px auto;
     background-color: #fff3ed;
@@ -328,7 +329,7 @@ section#acessorios > div{
 }
 
 #acessorios > div > p{
-    margin: 11px;
+    margin: 11px 11px 0px 11px;
     text-align: justify;
 }
 
@@ -348,22 +349,25 @@ section#acessorios > div{
     margin-top: 10px;
     
 }
-#acessorios > div > a{text-decoration: none;}
+#acessorios > div > a{text-decoration: none;
+margin: 0px;}
 #acessorios > div > a > input[type='button']:hover{
     background-color: #498680;
     cursor: pointer;
 }
 #acessorios > div > a > input[type='button']{
+    position: absolute;
+    top: 470px;
+    left: 50%;
     border: none;
     border-radius: 15px;
     color: white;
     text-align: center;
     text-transform: capitalize;
-    display: block;
-    margin: 20px auto;
     width: 170px;
     height: 30px;
     background-color: #325c58;
+    transform: translate(-50%);
 }
 section{
 

@@ -85,3 +85,52 @@ p#pdestaque{
     background-image: url(../imagens/cafeteriag.jpg);
     
 }
+#acessorios{
+    display: flex;
+}
+
+.ac{
+    width: 380px;
+}
+
+.facessorio{
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+.facessorio > img{
+    width: 100%;
+    height: 100%;
+
+}
+
+section#acessorios > div{
+    margin: 25px auto;
+    width: 300px;
+    height: 590px;
+   
+}
+
+
+
+#acessorios > div > img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+#acessorios > div > a > input[type='button']:hover{
+    background-color: #498680;
+    cursor: pointer;
+}
+
+#acessorios > div > a > input[type='button']{
+    width: 180px;
+    top: 520px;
+
+}
