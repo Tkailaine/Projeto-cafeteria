@@ -69,3 +69,19 @@ p#pdestaque{
 #buttoncardapio{
     width: 180px;
 }
+
+
+.quemsomos{
+    background-image: url(../imagens/quemsomosg.jpg);
+}
+
+.atendimento{
+    background-image: url(../imagens/atendimentog.jpg);
+  
+}
+
+.cafeteria{
+
+    background-image: url(../imagens/cafeteriag.jpg);
+    
+}
