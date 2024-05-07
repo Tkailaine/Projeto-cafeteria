@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.titulofotosessao{
+    background-color: #325c58;
+    height: 700px;
+}
+
+#normal{
+    background-image: url(../imagens/acessorios-loja3gg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
