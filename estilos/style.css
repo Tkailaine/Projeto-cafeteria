@@ -322,7 +322,7 @@ section#acessorios > div{
     display: block;
     margin: 25px auto;
     background-color: #fff3ed;
-    width: 380px;
+    width: 340px;
     height: 520px;
     border-radius: 15px;
     box-shadow: 1px 2px rgba(0, 0, 0, 0.185);
@@ -357,7 +357,7 @@ margin: 0px;}
 }
 #acessorios > div > a > input[type='button']{
     position: absolute;
-    top: 470px;
+    top: 475px;
     left: 50%;
     border: none;
     border-radius: 15px;
