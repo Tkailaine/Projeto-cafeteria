@@ -1,23 +1,27 @@
-var itens = document.getElementById("itens")
-var menu = document.getElementById("divmenu")
-var destaque = document.getElementById("destaque")
+
 var preco = document.querySelector(".precoc")
 var msg = document.querySelector(".msg")
 
-function fechar(){
-    if(itens.style.display!='none'){
-        itens.style.display='none';
-        menu.style.display='inline-block';
-        destaque.style.display='block';
-    }
-}
-function abrir(){
-    if(menu.style.display!='none'){
-        itens.style.display='inline-block';
-        menu.style.display='none';
-        destaque.style.display='none';
-    }
-}
+
+document.querySelectorAll('.menu a').forEach(link => {
+
+    link.addEventListener('click', function() {
+
+      document.querySelector('.menu').classList.remove('open');
+      document.querySelector('.menu-btn').style.opacity = '1';
+    });
+  });
+
+  document.querySelector('.menu-btn').addEventListener('click', function() {
+   
+    document.querySelector('.menu').classList.add('open');
+    document.querySelector('.menu-btn').style.opacity = '0';
+  });
+  
+  document.querySelector('.close-btn').addEventListener('click', function() {
+    document.querySelector('.menu').classList.remove('open');
+    document.querySelector('.menu-btn').style.opacity = '1';
+  });
 
 
 function entrou(elemento) {
@@ -30,16 +34,6 @@ function saiu(elemento) {
     elemento.nextElementSibling.style.display = 'none';
 }
 
-window.addEventListener('scroll', function() {
-    var scrollTop = window.scrollY;
-    var titulosessao = document.querySelector('.titulosessao');
-    var liquido = document.querySelector('.liquido');
-    
-    // Calcula a quantidade de deslocamento com base na posição de rolagem
-    var offset = scrollTop * 0.5;
-    
-    // Aplica o deslocamento à imagem líquida
-    liquido.style.transform = 'translateY(calc(100% + ' + offset + 'px))';
-  });
+
   
 

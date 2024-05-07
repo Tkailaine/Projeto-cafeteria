@@ -1,19 +1,20 @@
-var itens = document.getElementById("itens")
-var menu = document.getElementById("divmenu")
-var destaque = document.getElementById("destaque")
 
-function fechar(){
-    if(itens.style.display!='none'){
-        itens.style.display='none';
-        menu.style.display='inline-block';
-        destaque.style.display='block';
-    }
-}
-function abrir(){
-    if(menu.style.display!='none'){
-        itens.style.display='inline-block';
-        menu.style.display='none';
-        destaque.style.display='none';
-    }
-}
+document.querySelectorAll('.menu a').forEach(link => {
 
+    link.addEventListener('click', function() {
+
+      document.querySelector('.menu').classList.remove('open');
+      document.querySelector('.menu-btn').style.opacity = '1';
+    });
+  });
+
+  document.querySelector('.menu-btn').addEventListener('click', function() {
+   
+    document.querySelector('.menu').classList.add('open');
+    document.querySelector('.menu-btn').style.opacity = '0';
+  });
+  
+  document.querySelector('.close-btn').addEventListener('click', function() {
+    document.querySelector('.menu').classList.remove('open');
+    document.querySelector('.menu-btn').style.opacity = '1';
+  });

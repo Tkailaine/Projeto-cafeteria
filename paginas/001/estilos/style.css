@@ -58,76 +58,72 @@ header > nav > #linklogo > a > #flogo{
     width: 150px;
    
 }
-nav > ul{
-    display: none;
-    position: relative;
-    list-style-type: none;
-    padding: 50% 5%;
-    width: 100vw;
-    height: 100vh;
-    float: left;
-    background-color: rgba(3, 3, 3, 0.89);
-    transition: opacity 0.3s ease-in-out;
-    
+.menu-btn {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  z-index: 999;
+  cursor: pointer;
 }
 
-
-#imenufechar{
-    color: white;
-    font-size: 3em;
-    cursor: pointer;
-
+.menu-btn span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color:  #ffff;
+  margin-bottom: 5px;
 }
 
-#lifechar{
-    position: absolute;
-    top: 10%;
-    left: 80%;
+.menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #181717;
+  transition: left 0.3s ease;
+  z-index: -1; 
 }
 
-#divmenu{
-    display: inline-block;
+.menu.open {
+  left: 0;
+  z-index: 999; 
 }
 
-#imenuabrir{
-    position: absolute;
-    top: 20px;
-    left: 90%;
-    color: white;
-    font-size: 2.4em;
-    cursor: pointer;
-    
+.menu ul {
+  position: absolute;
+  top: 50%;
+  list-style: none;
+  padding: 0;
+  transform: translate(0%,-50%);
+  margin-left: 20px;
 }
 
-
-
-nav > ul > li{
-    display: block;
-    text-align: left;
-    padding-right: 2vw;
-    height: 5vh;
-    margin: 15px 0px;
+.menu ul li {
+  padding: 15px;
+  font-family: var(--font-principal);
+  font-size: 1.5em;
+  text-align: left;
+  
 }
 
-nav> ul > li > a{
-    font-family: var(--font-principal);
-    font-size: 1.5em;
-    color: white;
-    letter-spacing: 3px;
-    margin: 5px;
-    text-decoration: none;
-
-    
+.menu ul li a {
+  text-decoration: none;
+  color: white;
 }
 
-nav > ul > li > a:hover{
-    color: var(--cor5);
+.menu ul li a:hover {
+  color: var(--cor5);
 }
 
-#itens {
-    position: relative;
-    z-index: 1; 
-  }
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 40px;
+  cursor: pointer;
+  color: #ffff;
+}
 
   
 main{ 
