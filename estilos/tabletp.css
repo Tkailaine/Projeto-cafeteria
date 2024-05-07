@@ -34,3 +34,13 @@ p#pdestaque{
     width: 180px;
 
 }
+
+#acessorios{
+    width: 100%;
+    height: 100%;
+}
+
+section#acessorios > div{
+    width: 420px;
+}
+
