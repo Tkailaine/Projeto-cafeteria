@@ -179,6 +179,7 @@ main{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: auto;
     
   
 
@@ -195,6 +196,7 @@ main{
     flex-direction: column;
     width: 370px;
     height:auto;
+    margin: auto;
  
   }
 
