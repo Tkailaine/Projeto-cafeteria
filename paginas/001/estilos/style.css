@@ -132,11 +132,10 @@ main{
 .slideshow-container {
     position: relative;
     max-width: 100%;
+
   }
   
-  .slide {
-    display: none;
-  }
+ 
   
   .prev, .next {
     position: relative;

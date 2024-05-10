@@ -3,3 +3,11 @@
 .sessao{
     margin: 30px 2% 0px 0px;
 }
+
+.slideshow-container{
+    display: none;
+}
+
+.dot {
+  display: none;
+  }
