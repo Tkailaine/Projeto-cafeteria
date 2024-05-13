@@ -134,3 +134,28 @@ section#acessorios > div{
     top: 520px;
 
 }
+
+footer{
+    height: 250px;
+}
+
+.sessoesfooter{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: flex-end;
+    
+}
+
+.sessoesfooter > div{
+    margin: 40px;
+}
+
+.links > a {
+    font-size: 1.3em;
+}
+
+.icone{
+    width: 38px;
+}
+

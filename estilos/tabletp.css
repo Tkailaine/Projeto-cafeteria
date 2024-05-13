@@ -45,3 +45,28 @@ section#acessorios > div{
     
 }
 
+footer{
+    background-color: var(--cor1);
+    color: white;
+    height: 250px;
+    border-top: 1px solid;
+    font-family: var(--font-principal);
+
+}
+
+.sessoesfooter{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+
+    
+}
+
+
+.links > a {
+    font-size: 1.3em;
+}
+
+
+
