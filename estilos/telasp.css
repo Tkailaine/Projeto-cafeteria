@@ -1,2 +1,31 @@
+@charset "UTF-8";
 
+.quemsomos{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagens/quemsomospp.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5vh;
+}
 
+.atendimento{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagens/atendimentopp.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cafeteria{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagens/cafeteriapp.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
