@@ -323,4 +323,12 @@ main{
     color: var(--cor5);
 }
 
+.autoria{
+  text-decoration: none; 
+  color: white;
+}
+.autoria:hover{
+  color: var(--cor5);
+}
+
   

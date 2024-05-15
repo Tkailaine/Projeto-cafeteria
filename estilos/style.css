@@ -380,7 +380,7 @@ section{
 footer{
     background-color: var(--cor1);
     color: white;
-    height: 400px;
+    height: 600px;
     border-top: 1px solid;
     font-family: var(--font-principal);
     margin-top: 100px;
@@ -424,5 +424,13 @@ footer{
 }
 
 .links > a:hover {
+    color: var(--cor5);
+}
+
+.autoria{
+    text-decoration: none; 
+    color: white;
+}
+.autoria:hover{
     color: var(--cor5);
 }
