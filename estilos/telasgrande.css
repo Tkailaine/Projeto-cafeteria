@@ -135,30 +135,31 @@ section#acessorios > div{
 
 }
 
-footer{
-    height: 250px;
-}
-
-.sessoesfooter{
-    display: flex;
+.footer{
+    height: 300px;
+  }
+  .sessao-footer{
+    flex-wrap: wrap;
     justify-content: start;
     flex-direction: row;
-    align-items: flex-end;
     
-}
-
-.sessoesfooter > div{
-    margin: 40px;
-}
-
-.links > a {
+  }
+  
+  .form {
+    
+    width: 300px;
+    font-size: 1.125rem;
+  }
+  
+  .links-uteis > li{
     font-size: 1.3em;
-}
-
-.icone{
-    width: 38px;
-}
-
+    margin: 20px 0px;
+  }
+  
+  .sessao-footer > div{
+  margin-top: 25px;
+  margin-right: 60px;
+  }
 
 
 

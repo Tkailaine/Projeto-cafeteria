@@ -14,4 +14,23 @@
     height: 100%;
 }
 
+.sessao-footer{
+    flex-wrap: wrap;
+    justify-content: start;
+    flex-direction: column;
+    gap:40px
+    
+  }
+.form {
+  
+    width: 300px;
+    font-size: 1.125rem;
+    margin-right: 30px;
+  }
+
+  .links-uteis > li{
+    font-size: 1.2em;
+    margin: 20px 0px;
+  }
+
 

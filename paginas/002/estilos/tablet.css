@@ -20,26 +20,22 @@
     height: 100%;
  
 }
-footer{
-    height: 250px;
-}
-
-.sessoesfooter{
-    display: flex;
+.sessao-footer{
+    flex-wrap: wrap;
     justify-content: start;
     flex-direction: row;
-    align-items: flex-end;
+    gap: 40px
     
-}
+  }
+.form {
+  
+    width: 300px;
+    font-size: 1.125rem;
+    margin-right: 30px;
+  }
 
-.sessoesfooter > div{
-    margin: 40px;
-}
+  .links-uteis > li{
+    font-size: 1.2em;
+    margin: 20px 0px;
+  }
 
-.links > a {
-    font-size: 1.3em;
-}
-
-.icone{
-    width: 38px;
-}

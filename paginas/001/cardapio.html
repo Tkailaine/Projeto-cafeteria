@@ -357,31 +357,63 @@
         
    
     </main>
-    <footer>
-      <div class="sessoesfooter">
-          <div class="localizacao">
-             <h1 class="tendereco" style="color: white;">NOS <br>ENCONTRE</h1>
-             <a href="https://www.google.com/maps" target="_blank">R. Logadouro, 000 - Cidade - XX</a>
-          </div>
+    <footer> 
+        
+      <div class="sessao-footer">
   
-          <div class="links">
-              <a href="../001/cardapio.html" target="_self">Cardápio</a>
-              <a href="../002/loja.html" target="_self">Loja física</a>
-              <a href="../../index.html#identidade" target="_self">Quem somos</a>
-              <a href="creditos.txt" download="creditos.txt">Baixar Arquivo com Créditos</a>
-          </div>
+       <div>
+              <div>
+               <img src="/imagens/LOGO.png" style="width: 150px; margin-bottom:15px;" alt="Logo Grão Aroma">
+               <h3>Nos Encontre</h3>
+               <p>Rua: Logadouro, n° - CEP, Estado, Cidade </p>
+               <h3 style="margin-top: 20px;">Contato</h3>
+               <p>Email: email@gmail.com<br> Telefone: (00) 00000-0000</p>
+               <div>
+                  <button class="contato-footer" type="button"><a href="https://api.whatsapp.com/send?phone=5511913255296&text=Ol%C3%A1%20Thaissa!%20Estou%20interessado%20em%20criar%20um%20site%20para%20meu%20neg%C3%B3cio." target="_blank"> Me contate</a></button>
+              </div>
+              </div>
+           
+       </div>
   
-          <div class="redessociais">
-              <a href="https://www.instagram.com/" target="_blank"><img class="icone" src="imagens/instagram.png" alt="ícone instagram" ></a>
-              <a href="#"><img  class="icone" src="imagens/whatsapp.png" alt="ícone whatsapp" ></a>
-              <a href="https://www.facebook.com/" target="_blank"><img class="icone" src="imagens/facebook.png" alt="ícone facebook" ></a>
-          </div>
-          <div>
-            <p>&copy;Site feito por <a class="autoria" href="https://github.com/Tkailaine" target="_blank" >Thaissa Kailaine</a></p>
-        </div>
-      </div>
+       <div>
+           
+           <h3>Links Úteis</h3>
+               <ul class="links-uteis">
+                   <li><a href="#flogo" target="_self">Página Inicial</a></li>
+                   <li><a href="paginas/001/cardapio.html" target="_self">Cardápio</a></li>
+                   <li><a href="paginas/002/loja.html" target="_self">Loja Física</a></li>
+                   <li><a href="#identidade" target="_self">Quem Somos</a></li>
+                   <li> <a href="creditos.txt" download="creditos.txt">Baixar Arquivo com Créditos</a></li>
+               </ul>
+       </div>
   
-     </footer>
+       <div class="contato-form">
+           <h3>Entre em Contato</h3>
+           <form
+              action="https://formsubmit.co/thaissakailaine.ti@gmail.com"
+              method="POST"
+              class="form"
+              >
+              <label for="name">Nome</label>
+              <input type="text" name="name" id="name" required />
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" required />
+              <label for="message">Mensagem</label>
+              <textarea name="message" id="message" required></textarea>
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/paginas/agradecimento.html">
+              
+              <button type="submit">Enviar</button>
+              </form>
+                  </div>
+                  </div>
+  
+  
+                  <span class="divisoria"></span>
+                  <div style="text-align: center;">
+                      &copy;Todos os direitos reservados. <br>Site feito por Thaissa.kailaine
+                  </div>
+   </footer>
     
  
     <script src="script.js"></script>
